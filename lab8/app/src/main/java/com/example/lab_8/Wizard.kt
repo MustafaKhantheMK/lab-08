@@ -1,5 +1,5 @@
 package com.example.lab_8
-// provides two different spells for wizard and the amount of mana needed to cast the spells
+// provides two different spells for wizard and the amount of mana needed to cast the spells and stuff
 class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     fun castSpell(spell: String): Int {
         when (spell) {
